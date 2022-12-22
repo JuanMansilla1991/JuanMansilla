@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main {
+    background-color:  rgb(183, 234, 255);
+}
+
+.logo {
+    width: 100px;
+}
+
+main img {
+    width: 50%;
+    height: 50%;
+}
+
+header {
+    background-color: rgb(183, 234, 255);
+    display: flex;
+    gap: 20px;
+}
+
+/* Index */
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.linksUno {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.item a{
+    color: black;
+    text-decoration: none;
+}
+
+.tituloUno {
+    color: black;
+    height: 80vh;
+    background-image: url("../imagenes/pileta18.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tituloUno h1 {
+    background-color: rgba(191, 234, 253, 0.3);
+    padding-inline: 15px;
+    font-size: 90px;
+}
+
+.subTitulo h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.disponibilidad {
+    display: flex;
+    justify-content: center;
+}
+
+
+.tarjetas {
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.tarjetasDos {
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.info {
+padding: 0 20px 20px 20px;
+}
+
+.tarjetaImg {
+    max-width: 100%;
+}
+
+footer {
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.linkFooter{
+
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.5s ease;
+    color: black;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    color: red;
+}
+
+/* Contacto */
+
+.tituloC {
+    text-align: center;
+}
+
+.tituloCdos {
+    text-align: center;
+}
+
+.ubicacion {
+    text-align: center;
+}
+
+/* Gastronomia */
+
+.restAurante {
+    text-align: center;
+}
+
+.restAurante2 {
+    text-align: center;
+}
+
+.comedorimg {
+    width: 150vh;
+    display: flex;
+    margin-left: 150px;
+    
+    gap: 20px;
+}
+
+.comedorP {
+    text-align: center;
+    font-size: 20px;
+}
+
+.comedorimgDos {
+    width: 150vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+    gap: 20px;
+}
+
+/* Habitaciones */
+
+.habitacionTitulo {
+    text-align: center;
+}
+
+.habitacionTitulo2 {
+    text-align: center;
+}
+
+.habitacionTitulo3 {
+    text-align: center;
+
+}
+
+
+/* Servicios */
+
+.tituloServi {
+    text-align: center;
+}
+
+.iconosServicios {
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+    gap: 150px;
+    margin-left: 400px;
+    padding-top: 30px;
+}
