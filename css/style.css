@@ -33,10 +33,9 @@ header {
 .linksUno {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 250px;
     align-items: center;
     height: 100%;
-    
 }
 
 .item a{
@@ -66,6 +65,7 @@ header {
 .subTitulo h2 {
     text-align: center;
     font-size: 50px;
+    padding: 30px;
 }
 
 .disponibilidad {
@@ -73,6 +73,10 @@ header {
     justify-content: center;
 }
 
+.disponibilidad input {
+    padding: 20px;
+    font-size: 45px;
+}
 
 .tarjetas {
     padding: 60px;
@@ -170,6 +174,24 @@ footer a:hover {
 
 /* Habitaciones */
 
+.images22 {
+    width: 150em;
+    height: 30em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: none;
+
+}
+
+.images22 {
+    transition: transform 0.3s;
+}
+
+.images22 img:hover {
+    transform: scale(1.5) translateY(50px);
+}
+
 .habitacionTitulo {
     text-align: center;
 }
@@ -198,3 +220,353 @@ footer a:hover {
     margin-left: 400px;
     padding-top: 30px;
 }
+
+/* Responsive-Index */
+
+@media screen and (max-width: 1024px) {
+
+    .logo {
+        width: 100px;
+    }
+    .linksUno{
+        display: flex;
+        gap: 130px;
+        
+    }
+
+    .tituloUno {
+        height: 80vh;
+    }
+
+    .tituloUno h1 {
+        width: 50px;
+    }
+
+    .disponibilidad input{
+        height: 10rem;
+        width: 20rem;
+        font-size: 20px;
+    }
+
+    .subTitulo h2 {
+        text-align: center;
+        font-size: 50px;
+        padding: 50px;
+    }
+
+    .tarjetas {
+        display: flex;
+        grid-template-columns: repeat(3, 1fr, 1fr);
+        gap: 1em;
+        grid-template-rows: minmax(20px, auto);
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .linksUno {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: start;
+        width: 20%;
+    }
+
+
+
+    .linksUno{
+        display: block;
+        text-align: start;
+    }
+
+    .tituloUno {
+        height: 30vh;
+    }
+
+    .tituloUno h1 {
+        display: none;
+    }
+
+    .disponibilidad input{
+        height: 5rem;
+        width: 15rem;
+        font-size: 15px;
+    }
+
+    .subTitulo h2 {
+        text-align: center;
+        font-size: 40px;
+        padding: 30px;
+    }
+
+    .tarjetas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr, 1fr);
+        gap: 1em;
+        grid-template-rows: minmax(20px, auto);
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .linksUno {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: start;
+        width: 50%;
+    }
+
+    .disponibilidad input{
+        height: 5rem;
+        width: 7rem;
+        font-size: 6px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 425px) {
+
+    .linksUno {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: start;
+        width: 50%;
+    }
+
+    .disponibilidad input{
+        height: 5rem;
+        width: 7rem;
+        font-size: 6px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .linksUno {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: start;
+        width: 60%;
+    }
+
+
+    .linksUno{
+        display: block;
+        text-align: start;
+    }
+
+    .tituloUno h1 {
+        display: none;
+    }
+
+    .disponibilidad input{
+        height: 5rem;
+        width: 6rem;
+        font-size: 5px;
+    }
+
+
+    .subTitulo h2 {
+        display: flex;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .tarjetas {
+        display: grid;
+        grid-template-columns: repeat(2,1fr, 1fr);
+    }
+}
+
+
+
+/* Responsive-Contacto */
+
+@media screen and (max-width: 1024px) {
+
+    .tituloC {
+        font-size: 18px;
+    }
+
+    .tituloCdos {
+        font-size: 15px;
+    }
+    
+    .ubicacion {
+        font-size: 13px;
+    }
+
+
+    .comentarioS {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .centradoS {
+        text-align: center;
+    }
+
+    .mapa {
+        width: 120vh;
+        height: 50vh;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .tituloC {
+        font-size: 20px;
+    }
+
+    .comentarioS {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .centradoS {
+        text-align: center;
+    }
+
+    .mapa {
+        width: 100vh;
+        height: 50vh;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .linksUno {
+        display: block;
+    }
+
+
+    .tituloC {
+        font-size: 14px;
+    }
+
+    .tituloCdos {
+        font-size: 12px;
+    }
+    
+    .ubicacion {
+        font-size: 11px;
+    }
+
+    .movE {
+        display: flex;
+        justify-content: center;
+        gap: 95px;
+    }
+
+    .mapa {
+        width: 55vh;
+        height: 40vh;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+
+    .linksUno {
+        display: block;
+    }
+
+
+    .tituloC {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .tituloCdos {
+        font-size: 12px;
+    }
+    
+    .ubicacion {
+        font-size: 11px;
+    }
+
+    .movE {
+        display: flex;
+        justify-content: center;
+        gap: 95px;
+    }
+
+
+
+    .mapa {
+        width: 45vh;
+        height: 30vh;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .tituloC {
+        font-size: 14px;
+    }
+
+    .tituloCdos {
+        font-size: 12px;
+    }
+    
+    .ubicacion {
+        font-size: 11px;
+    }
+
+    .movE {
+        display: flex;
+        justify-content: center;
+        gap: 95px;
+    }
+
+
+
+    .mapa {
+        width: 40vh;
+        height: 30vh;
+    }
+
+    .centradoS {
+        font-size: 14px;
+        }
+    
+}
+
