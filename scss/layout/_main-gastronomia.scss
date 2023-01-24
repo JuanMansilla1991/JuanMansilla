@@ -1,0 +1,32 @@
+.restAurante {
+	text-align: center;
+}
+.restAurante2 {
+	text-align: center;
+}
+.comedorimg {
+	width: 150vh;
+	display: flex;
+	margin-left: 150px;
+	gap: 20px;
+}
+.comedorP {
+	text-align: center;
+	font-size: 20px;
+}
+.comedorimgDos {
+	width: 150vh;
+	display: flex;
+	justify-content: center;
+	margin-left: 170px;
+	gap: 20px;
+}
+
+@mixin flex($center) {
+	display: flex;
+	justify-content: $center;
+}
+
+.comedorimgDos {
+	@include flex(center);
+}

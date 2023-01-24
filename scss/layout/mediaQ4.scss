@@ -1,0 +1,58 @@
+
+@media screen and (max-width: 320px) {
+	.linksUno {
+		display: block;
+		display: block;
+		text-align: start;
+	}
+	.logo {
+		display: flex;
+		justify-content: start;
+		width: 60%;
+	}
+	.tituloUno {
+		h1 {
+			display: none;
+		}
+	}
+	.disponibilidad {
+		input {
+			height: 5rem;
+			width: 6rem;
+			font-size: 5px;
+		}
+	}
+	.subTitulo {
+		h2 {
+			display: flex;
+			text-align: center;
+			font-size: 20px;
+			padding: 10px;
+		}
+	}
+	.tarjetas {
+		display: grid;
+		grid-template-columns: repeat(2,1fr, 1fr);
+	}
+	.tituloC {
+		font-size: 14px;
+	}
+	.tituloCdos {
+		font-size: 12px;
+	}
+	.ubicacion {
+		font-size: 11px;
+	}
+	.movE {
+		display: flex;
+		justify-content: center;
+		gap: 95px;
+	}
+	.mapa {
+		width: 40vh;
+		height: 30vh;
+	}
+	.centradoS {
+		font-size: 14px;
+	}
+}

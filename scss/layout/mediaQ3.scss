@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 425px) {
+	.linksUno {
+		display: block;
+		display: block;
+	}
+	.logo {
+		display: flex;
+		justify-content: start;
+		width: 50%;
+	}
+	.disponibilidad {
+		input {
+			height: 5rem;
+			width: 7rem;
+			font-size: 6px;
+		}
+	}
+	.tituloC {
+		font-size: 14px;
+		padding: 20px;
+	}
+	.tituloCdos {
+		font-size: 12px;
+	}
+	.ubicacion {
+		font-size: 11px;
+	}
+	.movE {
+		display: flex;
+		justify-content: center;
+		gap: 95px;
+	}
+	.mapa {
+		width: 45vh;
+		height: 30vh;
+	}
+}

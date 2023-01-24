@@ -1,0 +1,67 @@
+.navbar {
+	display: flex;
+	align-items: center;
+}
+.linksUno {
+	display: flex;
+	list-style: none;
+	gap: 250px;
+	align-items: center;
+	height: 100%;
+}
+.item {
+	a {
+		color: black;
+		text-decoration: none;
+	}
+}
+.tituloUno {
+	color: black;
+	height: 80vh;
+	background-image: url("../imagenes/pileta18.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		background-color: rgba(191, 234, 253, 0.3);
+		padding-inline: 15px;
+		font-size: 90px;
+	}
+}
+.subTitulo {
+	h2 {
+		text-align: center;
+		font-size: 50px;
+		padding: 30px;
+	}
+}
+.disponibilidad {
+	display: flex;
+	justify-content: center;
+	input {
+		padding: 20px;
+		font-size: 45px;
+	}
+}
+.tarjetas {
+	padding: 60px;
+	display: flex;
+	gap: 30px;
+}
+.tarjetasDos {
+	background-color: white;
+	border-radius: 30px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+.info {
+	padding: 0 20px 20px 20px;
+}
+.tarjetaImg {
+	max-width: 100%;
+}

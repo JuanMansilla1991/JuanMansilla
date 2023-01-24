@@ -1,0 +1,23 @@
+.images22 {
+	width: 150em;
+	height: 30em;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr, 1fr;
+	grid-template-areas: none;
+	transition: transform 0.3s;
+	img {
+		&:hover {
+			transform: scale(1.5) translateY(50px);
+		}
+	}
+}
+.habitacionTitulo {
+	text-align: center;
+}
+.habitacionTitulo2 {
+	text-align: center;
+}
+.habitacionTitulo3 {
+	text-align: center;
+}

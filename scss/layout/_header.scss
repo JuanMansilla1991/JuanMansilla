@@ -1,0 +1,28 @@
+$color_1: black;
+$color_2: red;
+$font-family_1: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+$background-color_1: rgb(183, 234, 255);
+$background-color_2: rgba(191, 234, 253, 0.3);
+$background-color_3: white;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+}
+main {
+	background-color: $background-color_1;
+	img {
+		width: 50%;
+		height: 50%;
+	}
+}
+.logo {
+	width: 100px;
+}
+header {
+	background-color: $background-color_1;
+	display: flex;
+	gap: 20px;
+}
