@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-personal-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMansilla1991/JuanMansilla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanMansilla1991/JuanMansilla/issues"
+  },
+  "homepage": "https://github.com/JuanMansilla1991/JuanMansilla#readme"
+}

@@ -1,572 +1,766 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-main {
-    background-color:  rgb(183, 234, 255);
-}
-
-.logo {
-    width: 100px;
-}
-
-main img {
-    width: 50%;
-    height: 50%;
-}
-
-header {
-    background-color: rgb(183, 234, 255);
-    display: flex;
-    gap: 20px;
-}
-
-/* Index */
-
 .navbar {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .linksUno {
-    display: flex;
-    list-style: none;
-    gap: 250px;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  list-style: none;
+  gap: 250px;
+  align-items: center;
+  height: 100%;
 }
 
-.item a{
-    color: black;
-    text-decoration: none;
+.item a {
+  color: black;
+  text-decoration: none;
 }
 
 .tituloUno {
-    color: black;
-    height: 80vh;
-    background-image: url("../imagenes/pileta18.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  color: black;
+  height: 80vh;
+  background-image: url("../imagenes/pileta18.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .tituloUno h1 {
-    background-color: rgba(191, 234, 253, 0.3);
-    padding-inline: 15px;
-    font-size: 90px;
+  background-color: rgba(191, 234, 253, 0.3);
+  padding-inline: 15px;
+  font-size: 90px;
 }
 
 .subTitulo h2 {
-    text-align: center;
-    font-size: 50px;
-    padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
 }
 
 .disponibilidad {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 .disponibilidad input {
-    padding: 20px;
-    font-size: 45px;
+  padding: 20px;
+  font-size: 45px;
 }
 
 .tarjetas {
-    padding: 60px;
-    display: flex;
-    gap: 30px;
+  padding: 60px;
+  display: flex;
+  gap: 30px;
 }
 
 .tarjetasDos {
-    background-color: white;
-    border-radius: 30px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .info {
-padding: 0 20px 20px 20px;
+  padding: 0 20px 20px 20px;
 }
 
 .tarjetaImg {
-    max-width: 100%;
+  max-width: 100%;
 }
-
-footer {
-    display: flex;
-    background-color: white;
-    padding: 5px;
-    justify-content: space-around;
-}
-
-.linkFooter{
-
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    transition: color 0.5s ease;
-    color: black;
-    text-decoration: none;
-
-}
-
-footer a:hover {
-    color: red;
-}
-
-/* Contacto */
 
 .tituloC {
-    text-align: center;
+  text-align: center;
 }
 
 .tituloCdos {
-    text-align: center;
+  text-align: center;
 }
 
 .ubicacion {
-    text-align: center;
-}
-
-/* Gastronomia */
-
-.restAurante {
-    text-align: center;
-}
-
-.restAurante2 {
-    text-align: center;
-}
-
-.comedorimg {
-    width: 150vh;
-    display: flex;
-    margin-left: 150px;
-    
-    gap: 20px;
-}
-
-.comedorP {
-    text-align: center;
-    font-size: 20px;
-}
-
-.comedorimgDos {
-    width: 150vh;
-    display: flex;
-    justify-content: center;
-    margin-left: 170px;
-    gap: 20px;
-}
-
-/* Habitaciones */
-
-.images22 {
-    width: 150em;
-    height: 30em;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr, 1fr;
-    grid-template-areas: none;
-
+  text-align: center;
 }
 
 .images22 {
-    transition: transform 0.3s;
+  width: 150em;
+  height: 30em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: none;
+  transition: transform 0.3s;
 }
-
 .images22 img:hover {
-    transform: scale(1.5) translateY(50px);
+  transform: scale(1.5) translateY(50px);
 }
 
 .habitacionTitulo {
-    text-align: center;
+  text-align: center;
 }
 
 .habitacionTitulo2 {
-    text-align: center;
+  text-align: center;
 }
 
 .habitacionTitulo3 {
-    text-align: center;
-
+  text-align: center;
 }
 
+.restAurante {
+  text-align: center;
+}
 
-/* Servicios */
+.restAurante2 {
+  text-align: center;
+}
+
+.comedorimg {
+  width: 150vh;
+  display: flex;
+  margin-left: 150px;
+  gap: 20px;
+}
+
+.comedorP {
+  text-align: center;
+  font-size: 20px;
+}
+
+.comedorimgDos {
+  width: 150vh;
+  display: flex;
+  justify-content: center;
+  margin-left: 170px;
+  gap: 20px;
+}
+
+.comedorimgDos {
+  display: flex;
+  justify-content: center;
+}
 
 .tituloServi {
-    text-align: center;
+  text-align: center;
 }
 
 .iconosServicios {
+  display: flex;
+  height: 10rem;
+  width: 10rem;
+  gap: 150px;
+  margin-left: 400px;
+  padding-top: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main {
+  background-color: rgb(183, 234, 255);
+}
+main img {
+  width: 50%;
+  height: 50%;
+}
+
+.logo {
+  width: 100px;
+}
+
+header {
+  background-color: rgb(183, 234, 255);
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  background-color: white;
+  padding: 5px;
+  justify-content: space-around;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  transition: color 0.5s ease;
+  color: black;
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(183, 234, 255);
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 100px;
+  }
+  .linksUno {
     display: flex;
+    gap: 130px;
+  }
+  .tituloUno {
+    height: 80vh;
+  }
+  .tituloUno h1 {
+    width: 50px;
+  }
+  .disponibilidad input {
+    height: 10rem;
+    width: 20rem;
+    font-size: 20px;
+  }
+  .subTitulo h2 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+  }
+  .tarjetas {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr, 1fr);
+    gap: 1em;
+    grid-template-rows: minmax(20px, auto);
+  }
+  .tituloC {
+    font-size: 18px;
+  }
+  .tituloCdos {
+    font-size: 15px;
+  }
+  .ubicacion {
+    font-size: 13px;
+  }
+  .comentarioS {
+    display: flex;
+    justify-content: center;
+  }
+  .centradoS {
+    text-align: center;
+  }
+  .mapa {
+    width: 90vh;
+    height: 50vh;
+  }
+  .tituloServi {
+    text-align: center;
+  }
+  .iconosServicios {
+    display: flex;
+    justify-content: center;
     height: 10rem;
     width: 10rem;
-    gap: 150px;
+    gap: 200px;
     margin-left: 400px;
-    padding-top: 30px;
-}
+    padding-top: 35px;
+  }
+  .listaS {
+    display: block;
+    text-align: center;
+  }
+  .serviSS {
+    text-align: center;
+  }
 
-/* Responsive-Index */
+  .restAurante {
+    text-align: center;
+  }
+  .restAurante2 {
+    text-align: center;
+  }
+  .comedorimg {
+    justify-content: center;
+    width: 80vh;
+    height: 90vh;
+    display: flex;
+    margin-left: 90px;
+    gap: 50px;
+    padding: 50px;
+  }
+  .comedorP {
+    text-align: center;
+    font-size: 30px;
+  }
+  .comedorimgDos {
+    width: 80vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+  }
 
-@media screen and (max-width: 1024px) {
-
-    .logo {
-        width: 100px;
+  .images22 {
+    width: 60em;
+    height: 30em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: none;
+    transition: transform 0.3s;
+    img {
+      &:hover {
+        transform: scale(1.5) translateY(50px);
+      }
     }
-    .linksUno{
-        display: flex;
-        gap: 130px;
-        
-    }
+  }
+  .habitacionTitulo {
+    text-align: center;
+  }
+  .habitacionTitulo2 {
 
-    .tituloUno {
-        height: 80vh;
-    }
-
-    .tituloUno h1 {
-        width: 50px;
-    }
-
-    .disponibilidad input{
-        height: 10rem;
-        width: 20rem;
-        font-size: 20px;
-    }
-
-    .subTitulo h2 {
-        text-align: center;
-        font-size: 50px;
-        padding: 50px;
-    }
-
-    .tarjetas {
-        display: flex;
-        grid-template-columns: repeat(3, 1fr, 1fr);
-        gap: 1em;
-        grid-template-rows: minmax(20px, auto);
-    }
-
-
-}
-
-
-
-
-
-@media screen and (max-width: 768px) {
-
-    .linksUno {
-        display: block;
-    }
-
-    .logo {
-        display: flex;
-        justify-content: start;
-        width: 20%;
-    }
-
-
-
-    .linksUno{
-        display: block;
-        text-align: start;
-    }
-
-    .tituloUno {
-        height: 30vh;
-    }
-
-    .tituloUno h1 {
-        display: none;
-    }
-
-    .disponibilidad input{
-        height: 5rem;
-        width: 15rem;
-        font-size: 15px;
-    }
-
-    .subTitulo h2 {
-        text-align: center;
-        font-size: 40px;
-        padding: 30px;
-    }
-
-    .tarjetas {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr, 1fr);
-        gap: 1em;
-        grid-template-rows: minmax(20px, auto);
-    }
-    
-}
-
-@media screen and (max-width: 500px) {
-
-    .linksUno {
-        display: block;
-    }
-
-    .logo {
-        display: flex;
-        justify-content: start;
-        width: 50%;
-    }
-
-    .disponibilidad input{
-        height: 5rem;
-        width: 7rem;
-        font-size: 6px;
-    }
-
-
-}
-
-
-
-@media screen and (max-width: 425px) {
-
-    .linksUno {
-        display: block;
-    }
-
-    .logo {
-        display: flex;
-        justify-content: start;
-        width: 50%;
-    }
-
-    .disponibilidad input{
-        height: 5rem;
-        width: 7rem;
-        font-size: 6px;
-    }
-
-
-}
-
-@media screen and (max-width: 320px) {
-
-
-    .linksUno {
-        display: block;
-    }
-
-    .logo {
-        display: flex;
-        justify-content: start;
-        width: 60%;
-    }
-
-
-    .linksUno{
-        display: block;
-        text-align: start;
-    }
-
-    .tituloUno h1 {
-        display: none;
-    }
-
-    .disponibilidad input{
-        height: 5rem;
-        width: 6rem;
-        font-size: 5px;
-    }
-
-
-    .subTitulo h2 {
-        display: flex;
-        text-align: center;
-        font-size: 20px;
-        padding: 10px;
-    }
-
-    .tarjetas {
-        display: grid;
-        grid-template-columns: repeat(2,1fr, 1fr);
-    }
-}
-
-
-
-/* Responsive-Contacto */
-
-@media screen and (max-width: 1024px) {
-
-    .tituloC {
-        font-size: 18px;
-    }
-
-    .tituloCdos {
-        font-size: 15px;
-    }
-    
-    .ubicacion {
-        font-size: 13px;
-    }
-
-
-    .comentarioS {
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .centradoS {
-        text-align: center;
-    }
-
-    .mapa {
-        width: 120vh;
-        height: 50vh;
-    }
-
+    text-align: center;
+  }
+  .habitacionTitulo3 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
-
-    .tituloC {
-        font-size: 20px;
+  .linksUno {
+    display: block;
+    display: block;
+    text-align: start;
+  }
+  .logo {
+    display: flex;
+    justify-content: start;
+    width: 20%;
+  }
+  .tituloUno {
+    height: 30vh;
+  }
+  .tituloUno h1 {
+    display: none;
+  }
+  .disponibilidad input {
+    height: 5rem;
+    width: 15rem;
+    font-size: 15px;
+  }
+  .subTitulo h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+  }
+  .tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr, 1fr);
+    gap: 1em;
+    grid-template-rows: minmax(20px, auto);
+  }
+  .tituloC {
+    font-size: 20px;
+  }
+  .comentarioS {
+    display: flex;
+    justify-content: center;
+  }
+  .centradoS {
+    text-align: center;
+  }
+  .mapa {
+    width: 70vh;
+    height: 50vh;
+  }
+  .tituloServi {
+    text-align: center;
+  }
+  .iconosServicios {
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    width: 10rem;
+    gap: 100px;
+    margin-left: 300px;
+    padding-top: 35px;
+  }
+  .listaS {
+    display: block;
+    text-align: center;
+  }
+  .serviSS {
+    text-align: center;
+  }
+  .restAurante {
+    text-align: center;
+  }
+  .restAurante2 {
+    text-align: center;
+  }
+  .comedorimg {
+    justify-content: center;
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    margin-left: 70px;
+    gap: 50px;
+    padding: 50px;
+  }
+  .comedorP {
+    text-align: center;
+    font-size: 35px;
+  }
+  .comedorimgDos {
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .images22 {
+    width: 40em;
+    height: 30em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: none;
+    transition: transform 0.3s;
+    img {
+      &:hover {
+        transform: scale(1.5) translateY(50px);
+      }
     }
-
-    .comentarioS {
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .centradoS {
-        text-align: center;
-    }
-
-    .mapa {
-        width: 100vh;
-        height: 50vh;
-    }
-
+  }
+  .habitacionTitulo {
+    text-align: center;
+  }
+  .habitacionTitulo2 {
+    text-align: center;
+  }
+  .habitacionTitulo3 {
+    text-align: center;
+  }
 }
-
 
 @media screen and (max-width: 500px) {
-
-    .linksUno {
-        display: block;
+  .linksUno {
+    display: block;
+    display: block;
+  }
+  .logo {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+  }
+  .disponibilidad input {
+    height: 5rem;
+    width: 7rem;
+    font-size: 6px;
+  }
+  .tituloC {
+    font-size: 14px;
+  }
+  .tituloCdos {
+    font-size: 12px;
+  }
+  .ubicacion {
+    font-size: 11px;
+  }
+  .movE {
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+  }
+  .mapa {
+    width: 40vh;
+    height: 40vh;
+  }
+  .tituloServi {
+    text-align: center;
+  }
+  .iconosServicios {
+    display: flex;
+    justify-items: center;
+    height: 8rem;
+    width: 8rem;
+    gap: 70px;
+    margin-left: 150px;
+    padding-top: 35px;
+  }
+  .listaS {
+    display: block;
+    text-align: center;
+  }
+  .serviSS {
+    text-align: center;
+  }
+  .restAurante {
+    text-align: center;
+  }
+  .restAurante2 {
+    text-align: center;
+  }
+  .comedorimg {
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin-left: 90px;
+    gap: 50px;
+    padding: 10px;
+  }
+  .comedorP {
+    text-align: center;
+    font-size: 25px;
+  }
+  .comedorimgDos {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .images22 {
+    width: 25em;
+    height: 25em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: none;
+    transition: transform 0.3s;
+    img{
+      &:hover{
+        transform: scale(1.5) translateY(50px);
+      }
     }
-
-
-    .tituloC {
-        font-size: 14px;
-    }
-
-    .tituloCdos {
-        font-size: 12px;
-    }
+  }
+  .habitacionTitulo {
+    text-align: center;
+  }
+  .habitacionTitulo2 {
     
-    .ubicacion {
-        font-size: 11px;
-    }
-
-    .movE {
-        display: flex;
-        justify-content: center;
-        gap: 95px;
-    }
-
-    .mapa {
-        width: 55vh;
-        height: 40vh;
-    }
-
+    text-align: center;
+  }
+  .habitacionTitulo3 {
+    text-align: center;
+  }
 }
 
-
-
-
 @media screen and (max-width: 425px) {
-
-    .linksUno {
-        display: block;
+  .linksUno {
+    display: block;
+    display: block;
+  }
+  .logo {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+  }
+  .disponibilidad input {
+    height: 5rem;
+    width: 7rem;
+    font-size: 6px;
+  }
+  .tituloC {
+    font-size: 14px;
+    padding: 20px;
+  }
+  .tituloCdos {
+    font-size: 12px;
+  }
+  .ubicacion {
+    font-size: 11px;
+  }
+  .movE {
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+  }
+  .mapa {
+    width: 35vh;
+    height: 30vh;
+  }
+  .tituloServi {
+    text-align: center;
+  }
+  .iconosServicios {
+    display: flex;
+    justify-items: center;
+    height: 8rem;
+    width: 8rem;
+    gap: 40px;
+    margin-left: 130px;
+    padding-top: 35px;
+  }
+  .listaS {
+    display: block;
+    text-align: center;
+  }
+  .serviSS {
+    text-align: center;
+  }
+  .restAurante {
+    text-align: center;
+  }
+  .restAurante2 {
+    text-align: center;
+  }
+  .comedorimg {
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin-left: 20px;
+    gap: 50px;
+    padding: 50px;
+  }
+  .comedorP {
+    text-align: center;
+    font-size: 30px;
+  }
+  .comedorimgDos {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .images22 {
+    width: 20em;
+    height: 20em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: none;
+    transition: transform 0.3s;
+    img{
+      &:hover{
+        transform: scale(1.5) translateY(50px);
+      }
     }
-
-
-    .tituloC {
-        font-size: 14px;
-        padding: 20px;
-    }
-
-    .tituloCdos {
-        font-size: 12px;
-    }
+  }
+  .habitacionTitulo {
+    text-align: center;
+  }
+  .habitacionTitulo2 {
     
-    .ubicacion {
-        font-size: 11px;
-    }
-
-    .movE {
-        display: flex;
-        justify-content: center;
-        gap: 95px;
-    }
-
-
-
-    .mapa {
-        width: 45vh;
-        height: 30vh;
-    }
-
-
-
-
+    text-align: center;
+  }
+  .habitacionTitulo3 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 320px) {
-
-
-    .tituloC {
-        font-size: 14px;
+  .linksUno {
+    display: block;
+    display: block;
+    text-align: start;
+  }
+  .logo {
+    display: flex;
+    justify-content: start;
+    width: 60%;
+  }
+  .tituloUno h1 {
+    display: none;
+  }
+  .disponibilidad input {
+    height: 5rem;
+    width: 6rem;
+    font-size: 5px;
+  }
+  .subTitulo h2 {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .tarjetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr, 1fr);
+  }
+  .tituloC {
+    font-size: 14px;
+  }
+  .tituloCdos {
+    font-size: 12px;
+  }
+  .ubicacion {
+    font-size: 11px;
+  }
+  .movE {
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+  }
+  .mapa {
+    width: 30vh;
+    height: 30vh;
+  }
+  .centradoS {
+    font-size: 14px;
+  }
+  .tituloServi {
+    text-align: center;
+  }
+  .iconosServicios {
+    display: flex;
+    justify-items: center;
+    height: 8rem;
+    width: 8rem;
+    gap: 35px;
+    margin-left: 100px;
+    padding-top: 35px;
+  }
+  .listaS {
+    display: block;
+    text-align: center;
+  }
+  .serviSS {
+    text-align: center;
+  }
+  .restAurante {
+    text-align: center;
+  }
+  .restAurante2 {
+    text-align: center;
+  }
+  .comedorimg {
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin-left: 20px;
+    gap: 30px;
+    padding: 40px;
+  }
+  .comedorP {
+    text-align: center;
+    font-size: 20px;
+  }
+  .comedorimgDos {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-left: -30px;
+  }
+  .images22 {
+    width: 20em;
+    height: 20em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: none;
+    transition: transform 0.3s;
+    img{
+      &:hover{
+        transform: scale(1.5) translateY(50px);
+      }
     }
-
-    .tituloCdos {
-        font-size: 12px;
-    }
+  }
+  .habitacionTitulo {
+    text-align: center;
+  }
+  .habitacionTitulo2 {
     
-    .ubicacion {
-        font-size: 11px;
-    }
-
-    .movE {
-        display: flex;
-        justify-content: center;
-        gap: 95px;
-    }
-
-
-
-    .mapa {
-        width: 40vh;
-        height: 30vh;
-    }
-
-    .centradoS {
-        font-size: 14px;
-        }
-    
+    text-align: center;
+  }
+  .habitacionTitulo3 {
+    text-align: center;
+  }
 }
 
+
+/*# sourceMappingURL=style.css.map */
